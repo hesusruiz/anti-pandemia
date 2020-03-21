@@ -3,75 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/table-of-contents/with-toc/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/table-of-contents/without-toc/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/table-of-contents/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/collapsed/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/diagram1/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/collapsed/3rd-level/4th-level/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/collapsed/3rd-level/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/example/hidden/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/buttons/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/columns/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/hints/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/katex/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/shortcodes/tabs/</loc>
-  </url>
-  
-  <url>
     <loc>http://hesusruiz.github.com/anti-pandemia/</loc>
+    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +13,12 @@
   
   <url>
     <loc>http://hesusruiz.github.com/anti-pandemia/docs/</loc>
+    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hesusruiz.github.com/anti-pandemia/docs/diagram1/</loc>
+    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
   </url>
   
   <url>
