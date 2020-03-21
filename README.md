@@ -1,2 +1,3 @@
-# hugotest
- Una prueba de Hugo
+# Anti-pandemia
+
+Go to https://hesusruiz.github.com/anti-pandemia
