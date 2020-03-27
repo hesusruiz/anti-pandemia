@@ -7,4 +7,4 @@ nav:
     - Types of credentials: credential_types.md
     - Issuing credentials: issuing_credentials.md
     - Verifying credentials: verify_credentials.md
-theme: readthedocs
+theme: mkdocs
