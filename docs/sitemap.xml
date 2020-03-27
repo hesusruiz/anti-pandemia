@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/</loc>
-    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/</loc>
-    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/docs/diagram1/</loc>
-    <lastmod>2020-03-21T19:39:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hesusruiz.github.com/anti-pandemia/tags/</loc>
-  </url>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>None</loc>
+     <lastmod>2020-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>None</loc>
+     <lastmod>2020-03-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>

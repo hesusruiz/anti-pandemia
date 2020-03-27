@@ -1,0 +1,16 @@
+@startuml overview
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+LAYOUT_TOP_DOWN
+
+Person(practitioner, "Practitioner", "Professional providing Health Certificates")
+Person(citizen, "Citizen", "The user holding Health Certificates")
+Person(otherPerson, "Other person", "A person/professional checking Health Certificate")
+SystemDb(healthAuthority, "Health Authority", "Health authority managing pandemia")
+
+Rel(citizen, healthAuthority, "Provides some information to", "VC with Consent")
+
+Rel_R(practitioner, citizen, "Issues Health credential", "Digitally signed")
+Rel_R(citizen, otherPerson, "Shows credential to", "With Consent")
+
+@enduml

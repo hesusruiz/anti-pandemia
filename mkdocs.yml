@@ -1,0 +1,10 @@
+site_name: Pandemia management
+docs_dir: docs_src
+site_dir: docs
+nav:
+    - Home: index.md
+    - Onboarding: onboarding.md
+    - Types of credentials: credential_types.md
+    - Issuing credentials: issuing_credentials.md
+    - Verifying credentials: verify_credentials.md
+theme: readthedocs
