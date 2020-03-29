@@ -2,7 +2,8 @@
 
 ## Practitioner issuing Health Credential
 
-In this interaction, the citizen is in physical contact with practitioner and receives a Health Status credential, exchanging QRs as the communication mechanism.
+In this interaction, the citizen is in physical contact with a practitioner and receives a Health Status credential, exchanging QRs as the communication mechanism.
+This mechanism allows the issuance of credentials by a natural person without requiring a established relationship beforehand.
 
 1. The user creates a self-issued credential and sends it to the practitioner
 2. The practitioner checks personal data (name, address, mobile)
