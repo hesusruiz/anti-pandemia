@@ -23,7 +23,7 @@ nav:
 theme:
     name: 'material'
     feature:
-      tabs: true
+      tabs: false
     language: 'en'
     palette:
       primary: 'blue'
@@ -41,15 +41,15 @@ markdown_extensions:
         permalink: true
 
 # Repository
-repo_name: 'squidfunk/mkdocs-material'
-repo_url: 'https://github.com/squidfunk/mkdocs-material'
+repo_name: 'hesusruiz/anti-pandemia'
+repo_url: 'https://github.com/hesusruiz/anti-pandemia'
 
 
 # Customization
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/squidfunk'
+      link: 'https://github.com/hesusruiz'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/in/jesus-ruiz-martinez'
 
