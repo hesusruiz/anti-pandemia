@@ -9,7 +9,7 @@ In this interaction, the citizen is in physical contact with practitioner and re
 3. Practitioner creates health status credential and sends it to citizen
 4. Citizen stores health status credential in her mobile
 
-![Receive credential](diagrams/receive_credential.png)
+![Receive credential](images/issuing_credentials/practitioner.png)
 
 ## Institution issuing credential
 

@@ -1,4 +1,4 @@
-@startuml citizen_onboarding
+@startuml citizen
 
 autonumber
 skinparam sequenceArrowThickness 2

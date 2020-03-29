@@ -57,7 +57,35 @@ Health conditions can change a lot with time, so these health condition credenti
 
 ## High level overview
 
-The main actor is the **citizen**, who uses her mobile to receive credentials, display credentials to other people and send some information to the health authorities.
+### Practitioners can issue credentials to Citizens
 
-![Overview](diagrams/overview.png)
+![](images/index/practitioner.png)
 
+Health practitioners will issue to citizens different types of health status situation reports as special Verifiable Credentials. The credentials issued by practitioners will be based on lab tests, vaccination, diagnostics, etc.
+
+The practitioners have public identities (as Verifiable Credentials), issued by the corresponding entities (the process may depend on the specific country), and they can be verified by anybody, when checking the validity of a health status credential of a citizen.
+
+The system allows practitioners to issue credentials to citizens directly, just using their mobile phones while on the field, for example.
+
+### Citizens can present their credentials to officials
+
+![](images/index/official.png)
+
+### Citizens can self-attest their health status using questionnaires
+
+![](images/index/questionnaire.png)
+
+Citizens can self-attest their health status using questionnaires, in a similar way that is done now with some apps developed in some countries for coronavirus crisis management. These credentials are of a different nature, being self-issued and not fully verified by an authority, but they have proven to be of immense value in times of crisis. A simple verification with the mobile number, even if not legally binding, can be very useful in these situations.
+
+### Citizens can provide consent to use personal data
+
+![](images/index/consent.png)
+
+Citizens can provide consent to use personal data embedded in the credentials, including the GPS coordinates in their phones for different purposes, which can range from full tracking to explicit geo-tagging of some VC when the citizen considers it adecuate (for example for self-attestation of compliance with quarantine). Some messages can be automatically collected in a central server (there may be one per country depending on the citizen), and the aggregated information from many citizens can be used and analyzed.
+
+
+### Color coding in a safe and privacy-preserving way
+
+<img src="images/markers.jpg" width="180">
+
+The information represented by these Verifiable Credentials can be used in a safe and privacy-preserving way for things like "color coding" citizens for their health condition regarding the infection status and places visited.

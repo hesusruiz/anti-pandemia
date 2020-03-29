@@ -280,6 +280,47 @@
     High level overview
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#practitioners-can-issue-credentials-to-citizens" class="md-nav__link">
+    Practitioners can issue credentials to Citizens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-present-their-credentials-to-officials" class="md-nav__link">
+    Citizens can present their credentials to officials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-self-attest-their-health-status-using-questionnaires" class="md-nav__link">
+    Citizens can self-attest their health status using questionnaires
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-provide-consent-to-use-personal-data" class="md-nav__link">
+    Citizens can provide consent to use personal data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-coding-in-a-safe-and-privacy-preserving-way" class="md-nav__link">
+    Color coding in a safe and privacy-preserving way
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -447,6 +488,47 @@
     High level overview
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#practitioners-can-issue-credentials-to-citizens" class="md-nav__link">
+    Practitioners can issue credentials to Citizens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-present-their-credentials-to-officials" class="md-nav__link">
+    Citizens can present their credentials to officials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-self-attest-their-health-status-using-questionnaires" class="md-nav__link">
+    Citizens can self-attest their health status using questionnaires
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citizens-can-provide-consent-to-use-personal-data" class="md-nav__link">
+    Citizens can provide consent to use personal data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-coding-in-a-safe-and-privacy-preserving-way" class="md-nav__link">
+    Color coding in a safe and privacy-preserving way
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -533,8 +615,22 @@ We use VCs to <strong>increase privacy</strong> and data control by the user, co
 <p>NOTE: This project is heavily inspired by the <a href="https://github.com/disposableidentities/healthcrisis">healthcrisis</a> initiative, but it has been adapted to leverage ESSIF and in general the existing EBSI infrastructure and components.</p>
 </blockquote>
 <h2 id="high-level-overview">High level overview<a class="headerlink" href="#high-level-overview" title="Permanent link">&para;</a></h2>
-<p>The main actor is the <strong>citizen</strong>, who uses her mobile to receive credentials, display credentials to other people and send some information to the health authorities.</p>
-<p><img alt="Overview" src="diagrams/overview.png" /></p>
+<h3 id="practitioners-can-issue-credentials-to-citizens">Practitioners can issue credentials to Citizens<a class="headerlink" href="#practitioners-can-issue-credentials-to-citizens" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="images/index/practitioner.png" /></p>
+<p>Health practitioners will issue to citizens different types of health status situation reports as special Verifiable Credentials. The credentials issued by practitioners will be based on lab tests, vaccination, diagnostics, etc.</p>
+<p>The practitioners have public identities (as Verifiable Credentials), issued by the corresponding entities (the process may depend on the specific country), and they can be verified by anybody, when checking the validity of a health status credential of a citizen.</p>
+<p>The system allows practitioners to issue credentials to citizens directly, just using their mobile phones while on the field, for example.</p>
+<h3 id="citizens-can-present-their-credentials-to-officials">Citizens can present their credentials to officials<a class="headerlink" href="#citizens-can-present-their-credentials-to-officials" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="images/index/official.png" /></p>
+<h3 id="citizens-can-self-attest-their-health-status-using-questionnaires">Citizens can self-attest their health status using questionnaires<a class="headerlink" href="#citizens-can-self-attest-their-health-status-using-questionnaires" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="images/index/questionnaire.png" /></p>
+<p>Citizens can self-attest their health status using questionnaires, in a similar way that is done now with some apps developed in some countries for coronavirus crisis management. These credentials are of a different nature, being self-issued and not fully verified by an authority, but they have proven to be of immense value in times of crisis. A simple verification with the mobile number, even if not legally binding, can be very useful in these situations.</p>
+<h3 id="citizens-can-provide-consent-to-use-personal-data">Citizens can provide consent to use personal data<a class="headerlink" href="#citizens-can-provide-consent-to-use-personal-data" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="images/index/consent.png" /></p>
+<p>Citizens can provide consent to use personal data embedded in the credentials, including the GPS coordinates in their phones for different purposes, which can range from full tracking to explicit geo-tagging of some VC when the citizen considers it adecuate (for example for self-attestation of compliance with quarantine). Some messages can be automatically collected in a central server (there may be one per country depending on the citizen), and the aggregated information from many citizens can be used and analyzed.</p>
+<h3 id="color-coding-in-a-safe-and-privacy-preserving-way">Color coding in a safe and privacy-preserving way<a class="headerlink" href="#color-coding-in-a-safe-and-privacy-preserving-way" title="Permanent link">&para;</a></h3>
+<p><img src="images/markers.jpg" width="180"></p>
+<p>The information represented by these Verifiable Credentials can be used in a safe and privacy-preserving way for things like "color coding" citizens for their health condition regarding the infection status and places visited.</p>
                 
                   
                 
