@@ -44,6 +44,8 @@ markdown_extensions:
 repo_name: 'hesusruiz/anti-pandemia'
 repo_url: 'https://github.com/hesusruiz/anti-pandemia'
 
+# Copyright
+copyright: "Author: Jesus Ruiz. Available under the Creative Commons Attribution-ShareAlike License"
 
 # Customization
 extra:
