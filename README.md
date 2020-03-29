@@ -15,6 +15,6 @@ In addition, the application can:
 - Use **color coded schemas for social interactions** to provide information to improve protection and prevention of people during an epidemic or pandemic situation. Color coding can be more sophisticated than current schemes, thanks to the use of VCs.
 - Use exactly the same mechanism to deliver to the citizens other useful credentials during the post-crisis recovery of the society, for example **temporary permits** for going to work, visiting family or travelling, both inside a country and across borders.
 
-## For more details
+# For more details
 
 Go to [the web site](https://hesusruiz.github.io/anti-pandemia/).
