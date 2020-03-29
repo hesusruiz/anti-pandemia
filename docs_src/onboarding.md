@@ -1,6 +1,6 @@
 # Onboarding
 
-There are four types of entities that have to be onboarded in the system:
+There are three types of entities that have to be onboarded in the system:
 
 1. **Practitioners**: this is ageneral term used to denote all those professionals who can create and issue some specific types of credentials to the citizens. The term includes doctors and other health-related staff, but it can also denote some other professionals that can issuse credentials in some circumstances, like a police officer. They can issue credentials directly, without using any intermediate computer system of an intitution.
 
