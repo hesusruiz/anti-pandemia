@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2020-03-27</lastmod>
+     <loc>https://hesusruiz.github.io/anti-pandemia/</loc>
+     <lastmod>2020-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-03-27</lastmod>
+     <loc>https://hesusruiz.github.io/anti-pandemia/onboarding/</loc>
+     <lastmod>2020-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-03-27</lastmod>
+     <loc>https://hesusruiz.github.io/anti-pandemia/attestations/self-attestations/</loc>
+     <lastmod>2020-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-03-27</lastmod>
+     <loc>https://hesusruiz.github.io/anti-pandemia/attestations/normal_attestations/</loc>
+     <lastmod>2020-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2020-03-27</lastmod>
+     <loc>https://hesusruiz.github.io/anti-pandemia/issuing_credentials/</loc>
+     <lastmod>2020-03-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://hesusruiz.github.io/anti-pandemia/verify_credentials/</loc>
+     <lastmod>2020-03-29</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
