@@ -37,8 +37,6 @@ markdown_extensions:
 repo_url: 'https://github.com/hesusruiz/anti-pandemia'
 
 # Copyright
-#copyright: "(c) by Jesus Ruiz. Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
-
 copyright: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Jesus Ruiz</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC BY-SA 4.0 License</a>.'
 
 # Customization
