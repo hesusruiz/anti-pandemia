@@ -1,10 +1,56 @@
-site_name: Pandemia management
+# Project information
+site_name: 'Pandemia management'
+site_description: 'Mobile application for pandemia management'
+site_author: 'Jesus Ruiz'
+site_url: 'https://hesusruiz.github.io/anti-pandemia/'
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2025 Jesus Ruiz'
+
 docs_dir: docs_src
 site_dir: docs
 nav:
-    - Home: index.md
-    - Onboarding: onboarding.md
-    - Types of credentials: credential_types.md
-    - Issuing credentials: issuing_credentials.md
-    - Verifying credentials: verify_credentials.md
-theme: readthedocs
+- Home: index.md
+- Onboarding: onboarding.md
+- Data model:
+  - Self-attestations: attestations/self-attestations.md
+  - Attestations by others: attestations/normal_attestations.md
+- Credentials:
+  - Issuing credentials: issuing_credentials.md
+  - Verifying credentials: verify_credentials.md
+
+# Configuration
+theme:
+    name: 'material'
+    feature:
+      tabs: true
+    language: 'en'
+    palette:
+      primary: 'blue'
+      accent: 'blue'
+    font:
+      text: 'Roboto'
+      code: 'Roboto Mono'
+
+# Extensions
+markdown_extensions:
+    - admonition
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+
+# Repository
+repo_name: 'squidfunk/mkdocs-material'
+repo_url: 'https://github.com/squidfunk/mkdocs-material'
+
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/squidfunk'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/jesus-ruiz-martinez'
+
+

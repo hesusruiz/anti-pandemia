@@ -1,4 +1,4 @@
-# Types of credentials
+# Self-issued credentials
 
 ## Confinement
 
