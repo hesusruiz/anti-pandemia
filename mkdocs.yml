@@ -45,7 +45,7 @@ repo_name: 'hesusruiz/anti-pandemia'
 repo_url: 'https://github.com/hesusruiz/anti-pandemia'
 
 # Copyright
-copyright: "Author: Jesus Ruiz. Available under the Creative Commons Attribution-ShareAlike License"
+copyright: "(c) by Jesus Ruiz. Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 # Customization
 extra:
