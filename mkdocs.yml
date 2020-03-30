@@ -11,13 +11,13 @@ docs_dir: docs_src
 site_dir: docs
 nav:
 - Home: index.md
+- Credentials:
+  - Issuing credentials: issuing_credentials.md
+  - Verifying credentials: verify_credentials.md
 - Onboarding: onboarding.md
 - Data model:
   - Self-attestations: attestations/self-attestations.md
   - Attestations by others: attestations/normal_attestations.md
-- Credentials:
-  - Issuing credentials: issuing_credentials.md
-  - Verifying credentials: verify_credentials.md
 
 # Configuration
 theme:
