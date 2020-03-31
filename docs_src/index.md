@@ -1,6 +1,8 @@
-toc:
 
 # Immunisation and collective knowledge in pandemia management
+
+<img src="images/overview2.png" width=500/>
+
 
 ## Introduction
 
