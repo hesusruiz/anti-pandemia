@@ -1,5 +1,5 @@
 
-# Immunisation and collective knowledge in pandemia management
+# Immunisation and collective knowledge in pandemia management with Verifiable Credentials and Blockchain
 
 <img src="images/overview2.png" width=500/>
 
