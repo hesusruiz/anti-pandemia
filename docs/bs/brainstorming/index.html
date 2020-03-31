@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <meta name="author" content="Jesus Ruiz">
-  <link rel="canonical" href="https://hesusruiz.github.io/anti-pandemia/onboarding/entities/">
+  <link rel="canonical" href="https://hesusruiz.github.io/anti-pandemia/bs/brainstorming/">
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Entities - Pandemia management</title>
+  <title>Some ramblings - Pandemia management</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../../css/theme.css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Entities";
-    var mkdocs_page_input_path = "onboarding\\entities.md";
-    var mkdocs_page_url = "/anti-pandemia/onboarding/entities/";
+    var mkdocs_page_name = "Some ramblings";
+    var mkdocs_page_input_path = "bs\\brainstorming.md";
+    var mkdocs_page_url = "/anti-pandemia/bs/brainstorming/";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js" defer></script>
@@ -59,16 +59,10 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Onboarding</span></p>
-                <ul class="current">
-                    <li class="toctree-l1"><a class="reference internal" href="../natural_persons/">Natural persons</a>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../onboarding/natural_persons/">Natural persons</a>
                     </li>
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Entities</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#issuer">Issuer</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#verifier">Verifier</a>
-    </li>
-    </ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../onboarding/entities/">Entities</a>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Types of Credentials</span></p>
@@ -98,15 +92,11 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Onboarding &raquo;</li>
-        
-      
     
-    <li>Entities</li>
+    <li>Some ramblings</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/hesusruiz/anti-pandemia/edit/master/docs/onboarding/entities.md"
+        <a href="https://github.com/hesusruiz/anti-pandemia/edit/master/docs/bs/brainstorming.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -117,24 +107,62 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="onboarding-of-juridical-persons">Onboarding of juridical persons<a class="headerlink" href="#onboarding-of-juridical-persons" title="Permanent link">&para;</a></h1>
-<h2 id="issuer">Issuer<a class="headerlink" href="#issuer" title="Permanent link">&para;</a></h2>
-<p>(TBD)</p>
-<h2 id="verifier">Verifier<a class="headerlink" href="#verifier" title="Permanent link">&para;</a></h2>
-<p>(TBD)</p>
+                <h1 id="some-ramblings">Some ramblings<a class="headerlink" href="#some-ramblings" title="Permanent link">&para;</a></h1>
+<h2 id="anywise-vs-pairwise-dids">Anywise vs Pairwise DIDs<a class="headerlink" href="#anywise-vs-pairwise-dids" title="Permanent link">&para;</a></h2>
+<p>ESSIF-MVP1 uses “classic” ledger-based DIDs (i.e. DIDs registered on a Blockchain). Other types of DIDs are currently under development, such as “peer” DIDs that are not registered on a blockchain/DLT.</p>
+<p>ESSIF-MVP1 uses “classic” ledger-based DIDs (i.e. DIDs registered on a Blockchain). Other types of DIDs are currently under development, such as “peer” DIDs that are not registered on a blockchain/DLT.</p>
+<p>The following considerations apply to “classic” ledger-based DIDs:</p>
+<ul>
+<li>
+<p>They can be called “omnidirectional” or “anywise” identifiers, because anyone (with “reading” access to the DLT used for DID registration) can resolve them “globally”.</p>
+</li>
+<li>
+<p>They require privacy considerations due to certain attributes of Blockchains (e.g. immutability) which are in tension with the GDPR.</p>
+</li>
+<li>
+<p>They are particularly useful for DID Subjects who are Issuers of Verifiable Credentials (because Verifiable Credentials contain information about the Issuer, e.g. their DID).</p>
+</li>
+<li>
+<p>They are resolved using a global “source of truth” based on strong consistency and integrity guarantees offered by Blockchains and similar networks.</p>
+</li>
+</ul>
+<p>The following considerations apply to “peer” DIDs:</p>
+<p>*They can be called “unidirectional” or “pairwise” identifiers, meaning that only one party other than the DID Subject (or a limited group of parties) can resolve them.</p>
+<ul>
+<li>
+<p>The use of such identifiers is considered best practice under a principle known as “directed identity” and since they are not registered on a Blockchain there are no tensions with data protection regulations.</p>
+</li>
+<li>
+<p>They may have weaker consistency and integrity guarantees than “classic” ledger-based DIDs (because they are not stored on a Blockchain).</p>
+</li>
+</ul>
+<h2 id="well-known-did-configuration-dif">Well Known DID Configuration (DIF)<a class="headerlink" href="#well-known-did-configuration-dif" title="Permanent link">&para;</a></h2>
+<p><a href="https://identity.foundation/specs/did-configuration/"></a></p>
+<p>Assume that an entity has the following domain: <code>example.com</code>
+Then at the URL <code>https://www.example.com/.well-known/did-configuration</code> there should be a document like the following, with a JSON object containing a DID string and cryptographic proof (in the form of a JWT signed with the specified DID's keys) that verifies <strong>the domain controller and the DID controller are the same entity</strong>.</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+  <span class="nt">&quot;entries&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;did&quot;</span><span class="p">:</span> <span class="s2">&quot;did:ala:quor:redt:123...&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;jwt&quot;</span><span class="p">:</span> <span class="s2">&quot;ewogICJAY29udGV4dCI...&quot;</span>
+              <span class="err">↑</span> <span class="err">EXAMPLE</span> <span class="err">OF</span> <span class="err">DECODED</span> <span class="err">JWT</span> <span class="err">VALUE</span>
+              <span class="p">{</span>
+                <span class="nt">&quot;iss&quot;</span><span class="p">:</span> <span class="s2">&quot;did:ala:quor:redt:123...&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;domain&quot;</span><span class="p">:</span> <span class="s2">&quot;example.com&quot;</span><span class="p">,</span>
+                <span class="nt">&quot;exp&quot;</span><span class="p">:</span> <span class="mi">1475878357</span>
+              <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<h2 id="consent-receipt-specification">Consent receipt specification<a class="headerlink" href="#consent-receipt-specification" title="Permanent link">&para;</a></h2>
+<p>file:///C:/Users/hesus/Downloads/consent-receipt-specification-v1-1-0.pdf</p>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../../attestations/normal_attestations/" class="btn btn-neutral float-right" title="Third-party attestations">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../natural_persons/" class="btn btn-neutral" title="Natural persons"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -162,10 +190,6 @@
           <a href="https://github.com/hesusruiz/anti-pandemia/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../natural_persons/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../../attestations/normal_attestations/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
