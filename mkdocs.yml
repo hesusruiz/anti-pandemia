@@ -18,7 +18,7 @@ nav:
   - Natural persons: onboarding/natural_persons.md
   - Entities: onboarding/entities.md
 - Types of Credentials:
-  - Attestations by others: attestations/normal_attestations.md
+  - Third-party attestations: attestations/normal_attestations.md
   - Self-attestations: attestations/self-attestations.md
 
 # Configuration

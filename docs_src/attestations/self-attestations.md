@@ -1,4 +1,4 @@
-# Self-issued credentials
+# Self-attestations
 
 ## Confinement
 

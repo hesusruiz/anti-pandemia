@@ -4,10 +4,10 @@ toc:
 
 ## Introduction
 
-To help in times of virus crisis (eg. corona) and for social recovery after the initial crisis, this application uses [Verifiable Credentials](https://en.wikipedia.org/wiki/Verifiable_credentials) (VCs) to associate immunisation & health information to citizens.
+To help in times of pandemic crisis (eg. [COVID-19](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic)) and for social recovery after the initial crisis, this application uses [Verifiable Credentials](https://en.wikipedia.org/wiki/Verifiable_credentials) (VCs) to associate immunisation & health information to citizens.
 We use VCs to **increase privacy** and data control by the user, compared to the equivalent centralized applications developed in other regions like China or Korea. In addition, VCs improve the **interoperability** and usage of this data **across borders in the European Union** (and with other regions with proper agreements), **without requiring a centralized repository**.
 
-The application uses [EBSI](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI) as a public decentralized registry to check the validity of the public identities of practitioners and other professionals and institutions that may be involved. In addition, the application can be configured to verify public identities against any other publicly accessible blockchain repository (like Alastria Red T) with compatible query interface (or even centralized systems, with the condition that they be trusted).
+The application uses a public decentralized registry to check the validity of the public identities of practitioners, professionals and institutions that may be involved. The application can be configured to verify those public identities against several such repositories, like **[EBSI](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI)** or **[Alastria Red T](http://netstats.telsius.alastria.io/)**. It is even possible to use centralized systems (with the condition that they be trusted).
 
 Most interactions among participants happen **off-chain** with high levels of privacy, scalability and flexibility. However, the citizen can provide **explicit consent** in the form of VCs to enable the application to send some specific information to the health authorities of each country.
 
