@@ -41,7 +41,7 @@ The password is entered to safeguard the data in the mobile (eg. encrypting the 
 The system supports the fingerprint as a substitute of the password.
 The pair of keys are generated locally in the mobile and never leave the device.
 
-![Onboarding](/images/onboarding/natural_persons/citizen.png)
+![Onboarding](../images/onboarding/natural_persons/citizen.png)
 
 
 After this process, the citizen has in her mobile a self-issued credential which is not yet validated by anybody, so the trust on the included personal data is very low.
