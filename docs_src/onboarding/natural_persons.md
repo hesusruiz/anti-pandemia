@@ -10,6 +10,8 @@ There are four types of entities that have to be onboarded in the system:
 
 4. **Officials**: the term refers in general to those professionals who can verify credentials presented by citizens. They can make the verification directly, in the same way that practitioners can issue credentials directly. One example is a police officer checking in the street that a citizen holds an appropriate credential signed by a practitioner. Even though the term does not imply it, any citizen can also verify any credential presented by any other citizen. In this case, the citizen is acting in the role of an official.
 
+# Onboarding of natural persons
+
 ## Citizen onboarding
 
 We want to make onboarding as simple and fast as possible.
@@ -39,7 +41,8 @@ The password is entered to safeguard the data in the mobile (eg. encrypting the 
 The system supports the fingerprint as a substitute of the password.
 The pair of keys are generated locally in the mobile and never leave the device.
 
-![Onboarding](images/onboarding/citizen.png)
+![Onboarding](/images/onboarding/natural_persons/citizen.png)
+
 
 After this process, the citizen has in her mobile a self-issued credential which is not yet validated by anybody, so the trust on the included personal data is very low.
 However, this data will be validated to some extent when a practitioner issues a health status credential, as shown in the following diagram.
@@ -48,10 +51,7 @@ However, this data will be validated to some extent when a practitioner issues a
 
 (TBD)
 
-## Verifier (natural person)
+## Verifier
 
 (TBD)
 
-## Verifier (legal entity)
-
-(TBD)

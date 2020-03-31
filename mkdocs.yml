@@ -14,10 +14,12 @@ nav:
 - Credentials:
   - Issuing credentials: issuing_credentials.md
   - Verifying credentials: verify_credentials.md
-- Onboarding: onboarding.md
-- Data model:
-  - Self-attestations: attestations/self-attestations.md
+- Onboarding:
+  - Natural persons: onboarding/natural_persons.md
+  - Entities: onboarding/entities.md
+- Types of Credentials:
   - Attestations by others: attestations/normal_attestations.md
+  - Self-attestations: attestations/self-attestations.md
 
 # Configuration
 theme:
