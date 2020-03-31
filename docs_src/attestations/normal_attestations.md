@@ -25,7 +25,7 @@ In this context a *Safe conduct*, or *letter of transit*, is a certificate issue
 Electronic equivalent of a responsible declaration issued by a company/employer to an employee to allow her to move. As an example, the official paper-based responsible declaration for Spain (from the Ministry of Health) is the following:
 
 <table><tr><td>
-    <img src="../images/self-declaration-paper.png" width=500/>
+    <img src="../../images/self-declaration-paper.png" width=500/>
 </td></tr></table></br>
 
 ### The data included in the form is:
