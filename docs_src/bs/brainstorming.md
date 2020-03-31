@@ -47,3 +47,6 @@ Then at the URL `https://www.example.com/.well-known/did-configuration` there sh
   ]
 }
 ```
+## Consent receipt specification
+
+file:///C:/Users/hesus/Downloads/consent-receipt-specification-v1-1-0.pdf
